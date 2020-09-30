@@ -1,0 +1,155 @@
+@charset "ISO-8859-1";
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)),url("../image/login.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	font-size: 20px;
+	overflow-x:hidden;
+	color:ghostWhite;
+	font-family: 'Flamenco', italic;
+}
+.wrap{
+	width: 450px;
+	height:420px;
+	position: absolute;
+	top: 58%;
+	left: 50%;
+	transform:translate(-50% ,-50%);
+	background-color:rgba(0,0,0,0.5);
+	border-radius:9px;
+	border:10px solid rgba(0,0,0,0.4);
+	text-align: center;
+}
+h1{
+	text-align: center;
+	margin-top: 20px;
+	color:lime;
+	font-size: xx-large;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+h2{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color:red;
+	text-decoration: overline;
+}
+button{
+	border-radius:8px;
+	border: 2px solid white;
+	padding: 10px 25px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.btn-a a{
+	text-decoration:none;
+	color:ghostwhite;
+	font-size: 16px;
+}
+.btn-a{
+
+   	background-color: #3b3598;
+}
+.btn-a:hover{
+	background-color: ghostwhite;
+}
+.btn-a a:hover{
+	color:#3b3598;
+}
+.btn-b{
+   	background-color: red;
+   	border:1px solid white;
+   	
+}
+
+.btn-b a{
+	text-decoration:none;
+	color:#3b3598;
+	font-size: 16px;
+}
+.btn-b:hover {
+	background-color: ghostwhite;
+}
+.btn-b a:hover{
+	color:red;
+}
+input[type=text],input[type=password]{
+	height:40px;
+	width:70%;
+	margin-bottom:3px;
+	border: none;
+		word-spacing: 3px;
+	letter-spacing: 5px;
+	border-bottom: 2px solid #262626;
+	outline: none;
+	color:ghostwhite ;
+	background: transparent;
+	font-size: 16px;
+	margin-left: 15px;
+	text-align: center;
+}
+input[type=submit]{
+	margin-top:15px;
+	width:80%;
+	border-radius:8px;
+	border: 2px solid white;
+	padding: 8px 80px;
+	color:ghostwhite;
+	text-transform:uppercase;
+	 background-color: mediumseagreen;
+	 font-size: 16px;
+	 word-spacing: 3px;
+	letter-spacing: 5px;
+	 font-weight: lighter;
+}
+input[type=submit]:hover{
+	background-color: #bf55ec; 
+}
+.sign a{
+	text-decoration: none;
+	color:red;
+}
+.sign a:hover{
+ color: blue;
+}
+.home a{
+	text-decoration: none;
+	color:ghostwhite;
+}
+.home a:hover{
+	color:green;
+}
+.fa fa-facebook a{
+	color: ghostwhite;
+}
+.logo{
+	height: 120px;
+	width: auto;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	background-color: transparent;
+	border: 0.4px outset rgba(0,0,0,0.4);
+}
+h3{
+text-align:center;
+text-transform:uppercase;
+	word-spacing: 3px;
+	letter-spacing: 5px;
+color: #A7DD3C;
+background:transparent;
+text-shadow: 2px 0 0px #800040, 3px 2px 0px rgba(77,0,38,0.5), 
+3px 0 3px #FF002B, 5px 0 3px #800015, 6px 2px 3px rgba(77,0,13,0.5), 
+6px 0 9px #FF5500, 8px 0 9px #802A00, 9px 2px 9px rgba(77,25,0,0.5), 
+9px 0 18px #FFD500, 11px 0 18px #806A00, 12px 2px 18px rgba(77,66,0,0.5), 
+12px 0 30px #D4FF00, 14px 0 30px #6A8000, 15px 2px 30px rgba(64,77,0,0.5), 15px 0 45px #80FF00,
+ 17px 0 45px #408000, 17px 2px 45px rgba(38,77,0,0.5);
+}

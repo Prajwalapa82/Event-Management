@@ -1,0 +1,167 @@
+@charset "ISO-8859-1";
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-size: 20px;
+	overflow-x:hidden;
+	color:ghostWhite;
+	font-family: 'Flamenco', cursive;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url("../image/wallpaper.jpg");
+	height: 100vh;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+.clearfix:after{
+	content:".";
+	visibility: hidden;
+	display: block;
+	height: 0px;
+	clear:both;
+}
+.row{
+	max-width: 1280px;
+	margin: 0 auto;
+}
+.logo{
+	height: 120px;
+	width: auto;
+	float: left;
+	margin-top: 20px;
+	background-color: transparent;
+	border: 0.1px outset rgba(0,0,0,0.4);
+}
+.menu{
+	float: right;
+	margin-top: 60px;
+}
+.menu li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 40px;
+}
+.menu li a{
+	padding:5px 0px;
+	color:ghostwhite;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 90%;
+	font-weight: 100;
+}
+.menu li a:hover{
+	border-bottom: 2px solid #bf55ec;
+	
+}
+.mainblock{
+	width: 1280px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50% ,-50%);
+}
+h1{
+	color: ghostwhite;
+	font-size: 240%;
+	margin-bottom: 10px;
+	word-spacing: 3px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+.btn{
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: lighter;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 200px;
+	transition:background-color 0.2s,border 0.2s, color0.2s;
+}
+.btn-a{
+	background-color: transparent;
+	color: #bf55ec;
+	margin-right: 15px;
+	border: 1px solid #bf55ec;
+}
+.btn-a:hover {
+	background-color: #fff;
+	border: 2px solid #bf55ec;
+}
+.icon{
+	display: none;
+}
+.highlight{
+	animation: colorchange 1s infinite;
+	font-weight: bold;
+}
+@keyframes colorchange{
+	0% {color:red;}
+	25% {color:gold;}
+	50% {color:#bf55ec;}
+	75% {color:green;}
+	100% {color:whitw;}
+}
+@media only screen and (max-width:1180px){
+	.mainblock{
+	   width: 100%;
+	   padding: 0 2%;
+	}
+}
+@media only screen and (max-width:998px){
+	h1{font-size: 200%;}
+	.logo{
+	 height: 180px;
+	 width: auto;
+	 }
+       
+}
+@media only screen and (max-width:770px){
+	h1{font-size: 180%;}
+	.menu{
+	display: none;
+	}
+	.logo{
+	 height: 130px;
+	 width: auto;
+	 }
+	
+	.icon{
+	display: inline-block;
+	color: ghostWhite;
+	float:right;
+	margin-top: 30px;
+	margin-right: 35px;
+	
+	}
+	.menu{
+	 float: left;
+	
+	}
+	.menu li{
+	 display: block;
+	 margin-top: 5px;
+	}
+	.menu li a{
+	 margin-bottom: 5px;
+	}
+}
+@media only screen and (max-width:460px){
+	h1{font-size: 160%;
+	margin-bottom: 30px;
+	}
+	.logo{
+	 height: 70px;
+	 width: auto;
+	 }
+	 
+	 .icon{
+	  margin-right: 20px;
+	  margin-top: 35px;
+	 }
+	
+}
